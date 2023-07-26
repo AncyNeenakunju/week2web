@@ -1,0 +1,61 @@
+
+*{
+  box-sizing: border-box;
+  color:black;
+  text-decoration:none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+   a:hover {
+    background-color:lightgray;
+    border-radius: 50px;
+  }
+  section a:hover{
+    background-color:lightgray;
+    border-radius: 50px;
+  }
+  #shop a:hover{
+    background-color:lightgray;
+    border-radius: 50px;
+  }
+a{
+  text-decoration: none;
+}
+
+.main{
+    width:100px;
+    height:auto;
+    background-color: red;
+    color:black;
+}
+@media only screen and(max-width: 400px) {
+main{
+      background-color: #cccccc;
+  }
+}
+
+@media only screen and(max-width: 790px) {
+ main{
+      background-color: #8f0909;
+  }
+}
+
+@media only screen and(max-width:770px)
+{
+
+.card{
+    width:min-content;
+}
+.main{
+    background-color: white;
+}
+
+}
